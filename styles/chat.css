@@ -1,0 +1,133 @@
+.chatwindow{
+    width: 70%;
+    margin: 10px auto 20px;
+}
+
+.chatheader{
+    background-color:#2fabca ;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-radius: 24px 24px 0 0;
+}
+
+.chatbox{
+    background-color: white;
+    display: flex;
+    border-radius: 0 0 24px 24px;
+    width: 100%;
+}
+
+.chatpeople{
+    overflow-y: scroll;
+    width: 20%;
+    height: 400px;
+}
+
+.person{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center; 
+}
+
+.person p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.person:hover:not(.active){
+    background-color: #b6d0d6;
+}
+
+.active{
+    background-color: #3db5d3;
+}
+
+.chatPic{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.messagebox{
+    width: 80%;
+    border-left: 1px #2fabca solid;
+    background-color: #ebf9ff;
+    border-radius: 0 0 24px 0;
+}
+
+#scroll{
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+#messages{
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.message{
+    padding: 10px 15px;
+    width: fit-content;
+    max-width: 60%;
+    word-break: break-word;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.send{
+    background-color: #2fabca;
+    margin-left: auto;
+}
+
+.receive{
+    background-color: #9b9b9b;
+}
+
+#sender{
+    width: 100%;
+    background-color: #2fabca;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 24px 0;
+}
+
+#sender input{
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#sender button{
+    margin-left: 5px;
+    padding: 0 15px;
+    border-radius: 24px;
+    border: none;
+    background-color: #e0e0e0;
+    outline: none;
+}
+
+#sender button:hover{
+    background-color: #cccccc;
+}

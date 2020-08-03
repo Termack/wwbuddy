@@ -1,0 +1,235 @@
+*{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background: #e7e7e7;
+}
+
+footer {
+    text-align: center;
+    background-color: DarkSalmon;
+    color: white;
+    font-weight: 700;
+}
+
+.content{
+    width: 70%;
+    margin: 10px auto 20px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.profilecontent{
+    width: 70%;
+    margin: 10px auto 20px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    opacity: 0;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2fabca; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2fabca; 
+  }
+
+.profile{
+    margin-left: 70px;
+}
+
+.profilePic{
+    border: 2px solid #696969;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profilePic2{
+    margin-top: 20px;
+    border: 2px solid #696969;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.profileName{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.profileName2{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.profileName a{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.proinfo{
+    width: 90%;
+    border-top: 1px black solid;
+    margin: 10px 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.proinfo *{
+    font-size: 20px;
+}
+
+.info{
+    width: 100%;
+    border-left: 1px black solid;
+    margin: 10px 70px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.aboutdiv{
+    width: 100%;
+    position: relative;
+}
+
+.aboutdiv a{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.help-block{
+    font-size: 16px;
+}
+
+.info h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.editBtn{
+    margin-left: auto;
+}
+
+#editPage{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    background-color: rgba(133, 133, 133, 0.5);
+    display: none;
+}
+
+.edit{
+    width: 70%;
+    margin: 10px auto 10px;
+    border-radius: 8px;
+    background-color: white;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.edit .item{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.input{
+    border: 2px solid gray;
+}
+
+.input:focus{
+    border-color: #1e6f83;
+}
+
+select{
+    max-width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: white;
+    outline: none;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: white;
+    outline: none;
+}
+
+textarea{
+    width: 400px;
+    height: 150px;
+    resize: none;
+    border-radius: 8px;
+    background-color: white;
+    outline: none;
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.center{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sendmessage{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #2fabca;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.685);
+}
+
+.sendmessage:hover{
+    color: white;
+    background-color: #248aa3;
+}

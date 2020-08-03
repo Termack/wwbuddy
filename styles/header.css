@@ -1,0 +1,39 @@
+.headerImg{
+    height: 70px;
+    padding-left: 20px;
+}
+
+.headerDiv{
+    padding: 5px;
+    background-color:#2fabca ;
+    display: flex;
+    align-items: center;
+}
+
+.headerDiv a{
+    display: flex;
+    align-items: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.siteName{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 5px;
+}
+
+.logout{
+    margin-left: auto;
+    margin-right: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}

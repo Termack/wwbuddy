@@ -1,0 +1,50 @@
+.wrapper{
+    min-width: 512px;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: white;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 2px solid #747171 ;
+    border-radius: 8px;
+}
+
+.success{
+    color: #4BB543;
+}
+
+.passwrapper{
+    min-width: 512px;
+    width: 50%;
+    background: white;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #747171 ;
+    border-radius: 8px;
+}
+
+.formButton{
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    background-color: #9c9797;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10%;
+    transition: opacity 0.2s;
+}
+
+.formButton:hover{
+    opacity: 0.8;
+}
+
+.form-control{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: black;
+}
